@@ -5,3 +5,39 @@
 body {
     font-family: "Libre Baskerville", serif;
 }
+
+
+
+
+/* ===== Gradient Text ===== */
+.gradient-text {
+
+
+    text-transform: uppercase;
+    background: linear-gradient(-45deg,
+            #545AAD,
+            green,
+            gold,
+            purple);
+    background-size: 300% 300%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    animation: gradientFlow 4s ease infinite;
+}
+
+/* ===== Animation Keyframes ===== */
+@keyframes gradientFlow {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
