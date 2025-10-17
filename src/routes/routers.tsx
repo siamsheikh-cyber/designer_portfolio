@@ -1,3 +1,4 @@
+import HeroLayout from "@/pages/hero/heroLayout";
 import MainLayout from "@/pages/main/layout";
 import { createBrowserRouter } from "react-router-dom";
 
@@ -8,6 +9,7 @@ const router = createBrowserRouter([
         children: [
             {
                 path: "/",
+                Component: HeroLayout
 
             }
         ]
