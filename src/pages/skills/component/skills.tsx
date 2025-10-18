@@ -34,7 +34,7 @@ export default function SkillsSection() {
                 Skills & Tools
             </h1>
 
-            <div className="grid grid-cols-2 sm:grid-cols-3 gap-8 max-w-4xl mx-auto">
+            <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
                 {skills.map((skill, index) => (
                     <div
                         key={index}
