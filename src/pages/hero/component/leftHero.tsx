@@ -11,7 +11,7 @@ export default function LeftHero() {
 
                 <h1 className="mt-2 text-4xl md:text-5xl font-extrabold 
                  text-gray-900 dark:text-gray-100 leading-tight">
-                    Hi, I'm <span className="text-[#F093FB]">Abdul Halim</span>
+                    Hi, I'm <span className="text-[#F093FB] block lg:none">Abdul Halim</span>
                 </h1>
 
                 <h2 className="mt-2 text-2xl md:text-3xl font-semibold 
