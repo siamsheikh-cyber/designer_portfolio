@@ -1,3 +1,4 @@
+import { Outlet } from "react-router-dom";
 import LeutOfAbout from "../about/leyoutOfAbout";
 import HeroLayout from "../hero/heroLayout";
 import LeyoutOfSkills from "../skills/leyoutOfSkills";
@@ -8,6 +9,8 @@ function Home() {
             <HeroLayout />
             <LeutOfAbout />
             <LeyoutOfSkills />
+            <Outlet />
+
 
         </>
     );
