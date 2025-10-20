@@ -31,7 +31,7 @@ export default function ItemsBranding() {
                 {cards.map((card) => (
                     <article
                         key={card.id}
-                        className="flex flex-col bg-white dark:bg-gray-800 rounded-2xl shadow-md overflow-hidden transform hover:-translate-y-1 transition-transform duration-200"
+                        className="flex flex-col bg-white dark:bg-gray-900 rounded-2xl shadow-md overflow-hidden transform hover:-translate-y-1 transition-transform duration-200"
                     >
                         <div className="h-44 sm:h-48 w-full relative">
                             <img
