@@ -4,9 +4,9 @@ function LeftContact() {
     return (
         <motion.div
             className="lg:w-[50%] mb-5 lg:mb-0"
-            initial={{ opacity: 0, x: 100 }}       // ডান থেকে শুরু
-            whileInView={{ opacity: 1, x: 0 }}     // viewport এ এলে আসল অবস্থানে
-            viewport={{ once: true, amount: 0.5 }} // একবার trigger, 50% দেখা হলে
+            initial={{ opacity: 0, x: 100 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true, amount: 0.5 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
         >
             <form className="dark:bg-[black] bg-white text-[#0D1224] p-8 border border-gray-600 dark:text-white">
