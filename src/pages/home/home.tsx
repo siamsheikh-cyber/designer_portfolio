@@ -2,6 +2,7 @@ import { Outlet } from "react-router-dom";
 import LeutOfAbout from "../about/leyoutOfAbout";
 import HeroLayout from "../hero/heroLayout";
 import LeyoutOfSkills from "../skills/leyoutOfSkills";
+import LayoutOfContact from "../contact/layoutOfContact";
 
 function Home() {
     return (
@@ -10,6 +11,7 @@ function Home() {
             <LeutOfAbout />
             <LeyoutOfSkills />
             <Outlet />
+            <LayoutOfContact />
 
 
         </>
