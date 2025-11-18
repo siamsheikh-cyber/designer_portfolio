@@ -3,7 +3,7 @@ export default function RightAbout() {
         <section className="flex flex-col basis-[50%] sm:flex-wrap sm:flex-row gap-6 sm:gap-8 items-center px-4 sm:px-10 w-full max-w-5xl mx-auto">
             {/* Card 1: Experience (Purple Theme) */}
             <div
-                className="flex-1 min-w-[80%] sm:min-w-[45%] md:min-w-[30%] h-40 sm:h-44 rounded-2xl p-6 flex flex-col items-center justify-center gap-1 shadow-lg border border-gray-100 transform transition-transform duration-500 hover:scale-105 hover:shadow-2xl bg-gradient-to-br from-[#F0F5FF] to-[#FCF2F9]"
+                className="flex-1 min-w-[80%] sm:min-w-[45%] md:min-w-[30%] h-40 sm:h-44 rounded-2xl p-6 flex flex-col items-center justify-center gap-1 shadow-lg border border-gray-100 transform transition-transform duration-500 hover:scale-105 hover:shadow-2xl bg-gradient-to-br from-[#F0F5FF] to-[#f4eaf1]"
                 aria-label="Over 5 years experience"
             >
                 <div className="text-3xl sm:text-4xl font-extrabold leading-none text-[#6F5BB9]">5+</div>
