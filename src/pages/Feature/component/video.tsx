@@ -4,21 +4,21 @@ export default function UiuxItems() {
     const cards = [
         {
             id: 1,
-            vid: "../public/add.mp4",
+            vid: "/add.mp4",
             title: "Mobile App UI",
             desc: "User interface design for fitness tracking mobile application.",
             cta: "View project",
         },
         {
             id: 2,
-            vid: "../public/add2.mp4",
+            vid: "/add2.mp4",
             title: "Mobile App UI",
             desc: "User interface design for fitness tracking mobile application.",
             cta: "View project",
         },
         {
             id: 3,
-            vid: "../public/add3.mp4",
+            vid: "/add3.mp4",
             title: "Mobile App UI",
             desc: "User interface design for fitness tracking mobile application.",
             cta: "View project",
