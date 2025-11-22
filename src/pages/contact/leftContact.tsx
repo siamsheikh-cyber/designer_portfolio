@@ -17,19 +17,19 @@ function LeftContact() {
 
                 <h5 className="text-[18px] mb-1.5">Your Name:</h5>
                 <input
-                    className="dark:bg-[#10172D] w-full p-3 rounded-[5px] border border-gray-600 focus:border-[#16F2B3] focus:ring-0.5 focus:ring-[#16F2B3] outline-none"
+                    className="dark:bg-[#10172D] w-full p-3 rounded-[5px] border border-gray-600 focus:border-[#1675f2] focus:ring-0.5 focus:ring-[#1675f2] outline-none"
                     type="text"
                 />
 
                 <h5 className="text-[18px] mb-1.5 mt-3">Your Email:</h5>
                 <input
-                    className="dark:bg-[#10172D] w-full p-3 rounded-[5px] border border-gray-600 focus:border-[#16F2B3] focus:ring-0.5 focus:ring-[#16F2B3] outline-none"
+                    className="dark:bg-[#10172D] w-full p-3 rounded-[5px] border border-gray-600 focus:border-[#1675f2] focus:ring-0.5 focus:ring-[#1675f2] outline-none"
                     type="email"
                 />
 
                 <h5 className="text-[18px] mb-1.5 mt-3">Your Message:</h5>
                 <textarea
-                    className="dark:bg-[#10172D] w-full p-3 h-[130px] rounded-[5px] border border-gray-600 focus:border-[#16F2B3] focus:ring-0.5 focus:ring-[#16F2B3] outline-none"
+                    className="dark:bg-[#10172D] w-full p-3 h-[130px] rounded-[5px] border border-gray-600 focus:border-[#1675f2] focus:ring-0.5 focus:ring-[#1675f2] outline-none"
                 />
 
 

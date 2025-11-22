@@ -1,7 +1,6 @@
 
-import IllustaritionItems from "@/pages/Feature/component/illustaritionItems";
-import ItemsBranding from "@/pages/Feature/component/itemsBranding";
-import UiuxItems from "@/pages/Feature/component/ui_ux_items";
+import ItemsBranding from "@/pages/Feature/component/design";
+import UiuxItems from "@/pages/Feature/component/video";
 import LeyoutOfFeature from "@/pages/Feature/leyoutOfFeature";
 import Home from "@/pages/home/home";
 import MainLayout from "@/pages/main/layout";
@@ -22,15 +21,11 @@ const router = createBrowserRouter([
                         children: [
                             {
                                 path: "/",
-                                Component: ItemsBranding
-                            },
-                            {
-                                path: "/2",
                                 Component: UiuxItems
                             },
                             {
-                                path: "/3",
-                                Component: IllustaritionItems
+                                path: "/1",
+                                Component: ItemsBranding
                             }
                         ]
                     }

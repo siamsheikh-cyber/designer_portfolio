@@ -4,21 +4,21 @@ export default function ItemsBranding() {
     const cards = [
         {
             id: 1,
-            img: "../public/img3.png",
+            img: "/cart.jpeg",
             title: "Brand Identity Design",
             desc: "Complete brand identity for tech startup including logo, colors, and guidelines.",
             cta: "View project",
         },
         {
             id: 2,
-            img: "../public/img3.png",
+            img: "/thamble.jpeg",
             title: "Brand Identity Design",
             desc: "Complete brand identity for tech startup including logo, colors, and guidelines.",
             cta: "View project",
         },
         {
             id: 3,
-            img: "../public/img3.png",
+            img: "/pakage.jpeg",
             title: "Brand Identity Design",
             desc: "Complete brand identity for tech startup including logo, colors, and guidelines.",
             cta: "View project",

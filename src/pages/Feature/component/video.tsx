@@ -4,21 +4,21 @@ export default function UiuxItems() {
     const cards = [
         {
             id: 1,
-            img: "../public/img2.png",
+            vid: "../public/add.mp4",
             title: "Mobile App UI",
             desc: "User interface design for fitness tracking mobile application.",
             cta: "View project",
         },
         {
             id: 2,
-            img: "../public/img2.png",
+            vid: "../public/add2.mp4",
             title: "Mobile App UI",
             desc: "User interface design for fitness tracking mobile application.",
             cta: "View project",
         },
         {
             id: 3,
-            img: "../public/img2.png",
+            vid: "../public/add3.mp4",
             title: "Mobile App UI",
             desc: "User interface design for fitness tracking mobile application.",
             cta: "View project",
@@ -33,12 +33,8 @@ export default function UiuxItems() {
                         key={card.id}
                         className="flex flex-col bg-white dark:bg-gray-800 rounded-2xl shadow-md overflow-hidden transform hover:-translate-y-1 transition-transform duration-200"
                     >
-                        <div className="h-44 sm:h-48 w-full relative">
-                            <img
-                                src={card.img}
-                                alt={card.title}
-                                className="object-cover w-full h-full"
-                            />
+                        <div className="h-54 sm:h-48 w-full relative">
+                            <iframe src={card.vid} className="w-full h-full focus:none"></iframe>
                         </div>
 
                         <div className="p-5 flex-1 flex flex-col">

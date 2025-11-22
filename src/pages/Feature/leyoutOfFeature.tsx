@@ -17,17 +17,12 @@ function LeyoutOfFeature() {
                         <NavigationMenuList className="gap-3 space-x-0 data-[orientation=vertical]:flex-col data-[orientation=vertical]:items-start data-[orientation=vertical]:justify-start">
                             <NavigationMenuItem>
                                 <NavigationMenuLink asChild>
-                                    <Link to="/">Branding</Link>
+                                    <Link to="/">Videos</Link>
                                 </NavigationMenuLink>
                             </NavigationMenuItem>
                             <NavigationMenuItem>
                                 <NavigationMenuLink asChild>
-                                    <Link to="2">UI/UX</Link>
-                                </NavigationMenuLink>
-                            </NavigationMenuItem>
-                            <NavigationMenuItem>
-                                <NavigationMenuLink asChild>
-                                    <Link to="3">Illustration</Link>
+                                    <Link to="1">Design</Link>
                                 </NavigationMenuLink>
                             </NavigationMenuItem>
                         </NavigationMenuList>
