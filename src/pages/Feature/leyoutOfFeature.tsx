@@ -3,7 +3,7 @@ import { Link, Outlet } from "react-router-dom";
 
 function LeyoutOfFeature() {
     return (
-        <div className="mx-auto px-4 sm:px-6 lg:px-8 py-15">
+        <div id="project" className="mx-auto px-4 sm:px-6 lg:px-8 py-15">
             <section className="w-full mx-auto px-4 sm:px-6 lg:px-8 py-15">
                 {/* Header */}
                 <h1 className="text-3xl text-center sm:text-4xl font-bold text-gray-900 dark:text-gray-100 mb-8">

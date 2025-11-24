@@ -34,7 +34,7 @@ export default function UiuxItems() {
                         className="flex flex-col bg-white dark:bg-gray-800 rounded-2xl shadow-md overflow-hidden transform hover:-translate-y-1 transition-transform duration-200"
                     >
                         <div className="h-54 sm:h-48 w-full relative">
-                            <iframe src={card.vid} className="w-full h-full focus:none"></iframe>
+                            <video controls autoPlay muted loop playsInline src={card.vid} className="w-full h-full focus:none"></video>
                         </div>
 
                         <div className="p-5 flex-1 flex flex-col">
