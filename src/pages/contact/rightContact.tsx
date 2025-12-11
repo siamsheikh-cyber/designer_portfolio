@@ -34,7 +34,7 @@ function RightContact() {
                     transition={{ duration: 0.8, ease: "easeOut" }}
                 >
                     <BiSolidPhoneCall className="bg-gray-500 cursor-pointer text-[45px] dark:text-black p-3 rounded-full hover:bg-[#1675f2] hover:scale-105 transition-all duration-300" />
-                    <h1 className="text-1xl text-black dark:text-white">+8801787551284</h1>
+                    <a href="tel:+8801787551284" className="text-1xl text-black dark:text-white">+8801787551284</a>
                 </motion.div>
 
 
@@ -60,7 +60,9 @@ function RightContact() {
                     <FaGithub className="bg-gray-500 text-white cursor-pointer text-[55px] sm:text-[65px] dark:text-black p-4 rounded-full hover:bg-[#1675f2] hover:scale-105 transition-all duration-300" />
                     <IoLogoLinkedin className="bg-gray-500 text-white cursor-pointer text-[55px] sm:text-[65px] dark:text-black p-4 rounded-full hover:bg-[#1675f2] hover:scale-105 transition-all duration-300" />
                     <FaSquareInstagram className="bg-gray-500 text-white cursor-pointer text-[55px] sm:text-[65px] dark:text-black p-4 rounded-full hover:bg-[#1675f2] hover:scale-105 transition-all duration-300" />
-                    <TiSocialFacebookCircular className="bg-gray-500 cursor-pointer text-[55px] sm:text-[65px] dark:text-black p-4 rounded-full hover:bg-[#1675f2] hover:scale-105 transition-all duration-300 text-white" />
+                    <a href="https://www.facebook.com/share/1CzZwvt8rk/">
+                        <TiSocialFacebookCircular className="bg-gray-500 cursor-pointer text-[55px] sm:text-[65px] dark:text-black p-4 rounded-full hover:bg-[#1675f2] hover:scale-105 transition-all duration-300 text-white" />
+                    </a>
                 </motion.div>
 
             </div>

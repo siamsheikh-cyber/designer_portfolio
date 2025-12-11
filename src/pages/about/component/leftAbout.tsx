@@ -1,9 +1,11 @@
 function LeftAbout() {
     return (
         <div className="basis-[50%]">
-            <p className="text-gray-500 dark:text-gray-50 text-[16px] leading-[26px] mb-3.5">With over 5 years of experience in graphic design, I specialize in creating compelling visual identities that tell stories and connect with audiences. My passion lies in blending creativity with strategy to deliver designs that not only look beautiful but also drive business results.</p>
+            <p className="text-gray-500 dark:text-gray-50 text-[16px] leading-[26px] mb-3.5">I am a professional Graphic Designer and Video Editor with over 2 years of experience in creating impactful visuals and polished video content. I combine creativity with technical precision to bring ideas to life.</p>
+            <p className="text-gray-500 dark:text-gray-50 text-[16px] leading-[26px] mb-3.5">I am skilled in:
+                Adobe Illustrator, Adobe Photoshop, Adobe Premiere Pro, After Effects, Filmora, Microsoft Word & Microsoft Excel.</p>
             <p className="text-gray-500 dark:text-gray-50 text-[16px] leading-[26px] ">
-                I believe great design is about solving problems, not just making things pretty. Every project is an opportunity to create something meaningful that resonates with people and makes a lasting impact.
+                I believe great design is powerful—it tells a story, solves problems, and creates lasting impressions. Every project I work on is crafted with purpose, clarity, and a strong visual identity.
             </p>
         </div>
     );

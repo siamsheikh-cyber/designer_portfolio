@@ -16,13 +16,12 @@ export default function LeftHero() {
 
                 <h2 className="mt-2 text-2xl md:text-3xl font-semibold 
                      text-white dark:text-[#a29ccd]">
-                    Creative Graphic Designer
+                    Professional Graphic Designer & Video Editor
                 </h2>
 
                 <p className="mt-6 text-gray-100 dark:text-gray-300 
                      max-w-xl text-lg leading-relaxed">
-                    Crafting visual stories that captivate, inspire, and drive results.
-                    Transforming ideas into stunning designs that make brands unforgettable.
+                    I craft meaningful visuals and dynamic video content that tell powerful stories, strengthen brand identity, and turn ideas into memorable creative experiences.
                 </p>
 
                 <div className="mt-5 lg:mt-10">
@@ -34,7 +33,7 @@ export default function LeftHero() {
                                transform transition-all duration-500 ease-linear
                                hover:shadow-2xl hover:from-white hover:to-white hover:text-[#6976DE]  hover:opacity-95"
                     >
-                        View My Work
+                        Download My CV
                     </a>
 
                 </div>

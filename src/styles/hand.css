@@ -46,3 +46,9 @@ body {
 html {
     scroll-behavior: smooth;
 }
+
+.my-container {
+    max-width: 1166px;
+    margin-left: auto;
+    margin-right: auto;
+}
