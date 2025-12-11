@@ -34,7 +34,7 @@ function RightContact() {
                     transition={{ duration: 0.8, ease: "easeOut" }}
                 >
                     <BiSolidPhoneCall className="bg-gray-500 cursor-pointer text-[45px] dark:text-black p-3 rounded-full hover:bg-[#1675f2] hover:scale-105 transition-all duration-300" />
-                    <a href="tel:+8801787551284" className="text-1xl text-black dark:text-white">+8801787551284</a>
+                    <a href="" className="text-1xl text-black dark:text-white">+8801787551284</a>
                 </motion.div>
 
 
