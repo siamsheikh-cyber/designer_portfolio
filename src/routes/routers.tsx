@@ -1,4 +1,7 @@
 
+import AddsVideo from "@/components/extraPages/addsVideo";
+import CartunAdds from "@/components/extraPages/cartunAdds";
+import HumanAdds from "@/components/extraPages/humanAdds";
 import ItemsBranding from "@/pages/Feature/component/design";
 import UiuxItems from "@/pages/Feature/component/video";
 import LeyoutOfFeature from "@/pages/Feature/leyoutOfFeature";
@@ -30,6 +33,18 @@ const router = createBrowserRouter([
                         ]
                     }
                 ]
+            },
+            {
+                path: "/CartunAdds",
+                Component: CartunAdds
+            },
+            {
+                path: "/AddsVideo",
+                Component: AddsVideo
+            },
+            {
+                path: "/HumanAdds",
+                Component: HumanAdds
             },
         ]
     }

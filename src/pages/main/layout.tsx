@@ -5,11 +5,15 @@ import Footer from "./component/footer";
 function MainLayout() {
     return (
         <>
-            <div >
+
+            <div className="">
                 <Header />
-                <Outlet />
+                <div className="flex-1">
+                    <Outlet />
+                </div>
                 <Footer />
             </div>
+
         </>
     );
 }

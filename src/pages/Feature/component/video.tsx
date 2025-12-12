@@ -1,27 +1,31 @@
+import { Link } from "react-router-dom";
 
 
 export default function UiuxItems() {
     const cards = [
         {
             id: 1,
-            vid: "/add.mp4",
+            vid: "/human.mp4",
             title: "Mobile App UI",
             desc: "User interface design for fitness tracking mobile application.",
-            cta: "View project",
+            cta: "View More",
+            link: "/HumanAdds"
         },
         {
             id: 2,
-            vid: "/add2.mp4",
+            vid: "/adds.mp4",
             title: "Mobile App UI",
             desc: "User interface design for fitness tracking mobile application.",
-            cta: "View project",
+            cta: "View More",
+            link: "/AddsVideo"
         },
         {
             id: 3,
-            vid: "/add3.mp4",
+            vid: "/cartun.mp4",
             title: "Mobile App UI",
             desc: "User interface design for fitness tracking mobile application.",
-            cta: "View project",
+            cta: "View More",
+            link: "/CartunAdds"
         },
     ];
 
@@ -47,8 +51,8 @@ export default function UiuxItems() {
                             </p>
 
                             <div className="mt-auto">
-                                <a
-                                    href="#work"
+                                <Link
+                                    to={card.link}
                                     className="inline-block px-4 py-2 rounded-full text-white font-medium text-sm 
                                bg-gradient-to-r from-[#6976DE] to-[#7353AE] 
                                shadow-md dark:shadow-[#5C458E]/30 border-gray-500
@@ -56,7 +60,7 @@ export default function UiuxItems() {
                                hover:shadow-2xl hover:from-white hover:to-white hover:text-[#6976DE]  hover:opacity-95"
                                 >
                                     {card.cta}
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </article>
