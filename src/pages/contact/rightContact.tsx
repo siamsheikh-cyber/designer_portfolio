@@ -49,7 +49,7 @@ function RightContact() {
                     viewport={{ once: true, amount: 0.5 }}
                     transition={{ duration: 0.8, ease: "easeOut" }}
                 >
-                    <LuMapPin className="bg-gray-500 cursor-pointer text-[45px] dark:text-black p-3 rounded-full hover:bg-[#1675f2] hover:scale-105 transition-all duration-300" />
+                    <LuMapPin className="bg-gray-500 cursor-pointer text-[45px] dark:text-black p-3 rounded-full hover:bg-[#1672ea] hover:scale-105 transition-all duration-300" />
                     <p className="text-1xl text-black dark:text-white">DHAKA, BANGLADESH</p>
                 </motion.div>
 
