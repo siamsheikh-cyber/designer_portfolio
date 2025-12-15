@@ -1,7 +1,7 @@
 
-import AddsVideo from "@/components/extraPages/addsVideo";
-import CartunAdds from "@/components/extraPages/cartunAdds";
-import HumanAdds from "@/components/extraPages/humanAdds";
+import AddsVideo from "@/components/extraPages/videos/addsVideo";
+import CartunAdds from "@/components/extraPages/videos/cartunAdds";
+import HumanAdds from "@/components/extraPages/videos/humanAdds";
 import ItemsBranding from "@/pages/Feature/component/design";
 import UiuxItems from "@/pages/Feature/component/video";
 import LeyoutOfFeature from "@/pages/Feature/leyoutOfFeature";
