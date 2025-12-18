@@ -6,7 +6,7 @@ export default function RightAbout() {
                 className="flex-1 min-w-[80%] sm:min-w-[45%] md:min-w-[30%] h-40 sm:h-44 rounded-2xl p-6 flex flex-col items-center justify-center gap-1 shadow-lg border border-gray-100 transform transition-transform duration-500 hover:scale-105 hover:shadow-2xl bg-gradient-to-br from-[#F0F5FF] to-[#f4eaf1]"
                 aria-label="Over 5 years experience"
             >
-                <div className="text-3xl sm:text-4xl font-extrabold leading-none text-[#6F5BB9]">2+</div>
+                <div className="text-3xl sm:text-4xl font-extrabold leading-none text-[#7b65ca]">2+</div>
                 <div className="text-sm uppercase tracking-wider text-gray-600">Years</div>
                 <div className="text-xs opacity-90 text-gray-500">Experience</div>
             </div>
