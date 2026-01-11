@@ -13,7 +13,7 @@ export default function RightAbout() {
 
             {/* Card 2: Projects (Green Theme) */}
             <div
-                className="flex-1 min-w-[80%]  sm:min-w-[45%] md:min-w-[30%] h-40 sm:h-44 rounded-2xl p-6 flex flex-col items-center justify-center gap-1 shadow-lg border border-gray-100 transform transition-transform duration-500 hover:scale-105 hover:shadow-2xl bg-gradient-to-br from-[#FCF2F9] to-[#E0F7F0]"
+                className="flex-1 min-w-[80%]  sm:min-w-[45%] md:min-w-[30%] h-40 sm:h-45 rounded-2xl p-6 flex flex-col items-center justify-center gap-1 shadow-lg border border-gray-100 transform transition-transform duration-500 hover:scale-105 hover:shadow-2xl bg-gradient-to-br from-[#FCF2F9] to-[#E0F7F0]"
                 aria-label="Over 50 successful projects"
             >
                 <div className="text-3xl sm:text-4xl font-extrabold leading-none text-[#6F5BB9]">200+</div>
